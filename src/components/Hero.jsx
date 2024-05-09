@@ -19,7 +19,7 @@ const Hero = () => {
         </div>
       </div>
       
-      {/* <Navbar></Navbar> */}
+      <Navbar></Navbar>
       <video
         className="absolute top-0 left-0 w-full -z-10 object-cover h-dvh"
       

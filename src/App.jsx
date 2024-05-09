@@ -11,7 +11,7 @@ import Skills from "./components/Skills";
 export default function App() {
   return (
     <div className="">
-      <Navbar></Navbar>
+
       <Hero></Hero>
       <Intro></Intro>
       <Skills></Skills>

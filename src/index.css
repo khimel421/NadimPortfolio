@@ -18,6 +18,10 @@
    .container{
     @apply max-w-[1240px] mx-auto
    }
+
+   .info-style{
+    @apply flex items-center gap-2 text-white text-lg
+   }
 }
 
 .font-mont{
@@ -43,6 +47,13 @@
   }
 }
 
+.blob{
+  height: 500px;
+  width: 500px;
+
+}
+
+/* 
 .blob{
   border-radius: 40% 60% 60% 40% / 70% 30% 70% 30%;
   width: 250px;
@@ -167,4 +178,4 @@
   100% {
     transform: scaleX(.9) scaleY(1);
   }
-}
+} */

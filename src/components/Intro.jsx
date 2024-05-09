@@ -5,43 +5,34 @@ const Intro = () => {
     <section className="bg-black text-white font-mont  px-4 py-20">
       <div className="container flex flex-col items-center md:flex-row gap-16">
         {/* Intro title */}
-        <div className=" flex-grow md:w-[50%] ">
-          {/* <div className="relative">
-            <div className="blob">
-              <img src="https://images.unsplash.com/photo-1583524505974-6facd53f4597?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" />
+        <div className=" flex-grow md:w-[50%] relative">
+          <h1 className="absolute top-14 left-4 md:top-[180px] text-white text-4xl md:text-6xl font-bold max-w-[600px]">I’m Nadim, a professional video editor & film maker</h1>
+          <div className="w-[300px] md:w-[600px] md:h-[500px]">
+            <svg
+              viewBox="0 0 500 500"
+              xmlns="http://www.w3.org/2000/svg"
+              width="100%"
+              id="blobSvg"
+            >
+              <path id="blob" fill="#FF0066">
+                <animate
+                  attributeName="d"
+                  dur={"10000ms"}
+                  repeatCount={"indefinite"}
+                  values="M441,339.5Q393,429,295.5,452.5Q198,476,151,398Q104,320,108.5,252Q113,184,164.5,142Q216,100,288,106Q360,112,424.5,181Q489,250,441,339.5Z;
+                
+                M409,328.5Q375,407,292.5,415Q210,423,157,372Q104,321,92,244.5Q80,168,145,120.5Q210,73,277,102.5Q344,132,393.5,191Q443,250,409,328.5Z;
 
-              <div className="svg-wrap">
-                <svg
-                  width="1865"
-                  height="1865"
-                  viewBox="0 0 1865 1865"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M932.46 0C417.47 0 0 417.47 0 932.46C0 1447.45 417.47 1864.92 932.46 1864.92C1447.45 1864.92 1864.92 1447.45 1864.92 932.46C1864.92 417.47 1447.44 0 932.46 0ZM1196.7 1028.36C1182.03 1084.17 1140.69 1137.91 1087.39 1157.76C1034.09 1177.61 968.84 1163.55 892.69 1144.25C817.09 1125.18 730.2 1101.02 688.08 1040.63C645.73 980.8 647.78 884.91 687.68 815.14C727.58 745.37 805.11 702.28 883.84 675.78C962.81 648.72 1043.15 638.63 1093.91 671.5C1144.51 703.98 1165.68 779.81 1182.35 846.86C1199.02 913.91 1211.21 972.16 1196.7 1028.36Z" />
-                </svg>
-              </div>
-            </div>
+                M385,316.5Q356,383,284,399.5Q212,416,119.5,387Q27,358,52,262.5Q77,167,146.5,134Q216,101,281,115.5Q346,130,380,190Q414,250,385,316.5Z;
 
-            <p className="text-4xl md:text-6xl font-semibold z-10 md:absolute  top-0 md:top-44">
-              I'm Nadim, a professional video editor & film maker
-            </p>
-          </div> */}
-          <div className="blob">
-              <img src="https://images.unsplash.com/photo-1583524505974-6facd53f4597?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" />
+                M399,312.5Q349,375,275,419Q201,463,130,402.5Q59,342,55.5,248Q52,154,133.5,126.5Q215,99,299,91.5Q383,84,416,167Q449,250,399,312.5Z;
 
-              <div className="svg-wrap">
-                <svg
-                  width="1865"
-                  height="1865"
-                  viewBox="0 0 1865 1865"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M932.46 0C417.47 0 0 417.47 0 932.46C0 1447.45 417.47 1864.92 932.46 1864.92C1447.45 1864.92 1864.92 1447.45 1864.92 932.46C1864.92 417.47 1447.44 0 932.46 0ZM1196.7 1028.36C1182.03 1084.17 1140.69 1137.91 1087.39 1157.76C1034.09 1177.61 968.84 1163.55 892.69 1144.25C817.09 1125.18 730.2 1101.02 688.08 1040.63C645.73 980.8 647.78 884.91 687.68 815.14C727.58 745.37 805.11 702.28 883.84 675.78C962.81 648.72 1043.15 638.63 1093.91 671.5C1144.51 703.98 1165.68 779.81 1182.35 846.86C1199.02 913.91 1211.21 972.16 1196.7 1028.36Z" />
-                </svg>
-              </div>
-            </div>
+                M441,339.5Q393,429,295.5,452.5Q198,476,151,398Q104,320,108.5,252Q113,184,164.5,142Q216,100,288,106Q360,112,424.5,181Q489,250,441,339.5Z;
+                "
+                ></animate>
+              </path>
+            </svg>
+          </div>
         </div>
         <div className="flex-grow md:w-[50%]">
           <p className="text-lg">

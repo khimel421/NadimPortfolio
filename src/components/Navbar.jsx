@@ -17,7 +17,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <div onScroll={handleScroll} className=" font-mont text-white flex justify-between items-center  container min-h-[80px] px-2 fixed left-12  z-40 ">
+      <div onScroll={handleScroll} className="absolute font-mont text-white flex justify-between items-center  container min-h-[80px] px-2   z-40 ">
         
         {/* LOGO.... */}
         
@@ -38,7 +38,7 @@ const Navbar = () => {
           <button onClick={showDrawer}>
             <TiThMenuOutline />
           </button>
-          <Drawer style={{ }}  title="" onClose={onClose} open={open}>
+          <Drawer style={{width: ''}}  title="" onClose={onClose} open={open}>
             <ul className="flex flex-col py-2 gap-2 cursor-pointer text-lg font-semibold text-black">
               <li className="list-style">Home</li>
               <li className="list-style">About me</li>
