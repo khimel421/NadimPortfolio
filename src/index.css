@@ -12,7 +12,7 @@
    }
 
    .nav-style{
-    @apply border-b-2 border-b-transparent hover:border-b-2  hover:border-white transition-all
+    @apply border-b-2 border-b-transparent hover:border-b-2  hover:border-[#FF0066] transition-all
    }
 
    .container{
@@ -21,6 +21,14 @@
 
    .info-style{
     @apply flex items-center gap-2 text-white text-lg
+   }
+
+   .card-style{
+    @apply space-y-4  border-2 border-[#FF0066] p-4
+   }
+
+   .border-style{
+    @apply border-2 border-[#FF0066]
    }
 }
 
@@ -53,129 +61,25 @@
 
 }
 
-/* 
-.blob{
-  border-radius: 40% 60% 60% 40% / 70% 30% 70% 30%;
-  width: 250px;
-  height: 250px;
-  background: rgb(0, 255, 98);
-  background-image: linear-gradient(45deg, #3023AE 0%, rgb(0, 255, 98) 100%);
-  box-shadow: -10vmin 10vmin 0 rgba(255,255,255,0.07);
-  animation: animateBlob 10s linear infinite alternate;
+.top-btn-position {
+  position: fixed;
+  bottom: 15px;
+  right: 20px;
 }
 
-.blob {
-	width:30vw;
-	height:30vw;
-	position:relative;
-	margin-left:40%;
-	
-	--time:10s;
-	--amount:3;	
-	
-	img {
-		width:100%;
-		height:100%;
-		object-fit: cover;		
-		position:absolute;
-	}
-	
-	svg {
-		width:300%;
-		height:300%;
-		margin-left:-100%;
-		margin-top:-100%;
-		position:absolute;
-		animation:blob-skew calc( var(--time, 30s) * 0.5 ) linear  0s infinite, blob-turn var(--time, 30s) linear infinite;
-		transform-origin: center;
-
-		path {
-			animation: blob-scale calc( var(--time, 30s) * 0.5 ) ease-in-out 0s infinite;
-			transform-origin: center;			
-		}
-
-	}	
-		
+.top-btn-style {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid #333;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
 }
 
-
-@keyframes blob-turn {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+.top-btn-style:hover {
+  animation: none;
+  background-color: #333;
+  color: #fff;
+  border: 2px solid #fff;
 }
-
-@keyframes blob-skew {
-  0% {
-    transform: skewY(0deg);
-  }
-  13% {
-    transform: skewY( calc( (1.8deg) * var(--amount, 2)) );
-  }
-  18% {
-    transform: skewY( calc( (2.2deg) * var(--amount, 2)) );
-  }
-  24% {
-    transform: skewY( calc( (2.48deg) * var(--amount, 2)) );
-  }
-  25% {
-    transform: skewY( calc( (2.5deg) * var(--amount, 2)) );
-  }
-  26% {
-    transform: skewY( calc( (2.48deg) * var(--amount, 2)) );
-  }
-  32% {
-    transform: skewY( calc( (2.2deg) * var(--amount, 2)) );
-  }
-  37% {
-    transform: skewY( calc( (1.8deg) * var(--amount, 2)) );
-  }
-  50% {
-    transform: skewY(0deg);
-  }
-  63% {
-    transform: skewY( calc( (-1.8deg) * var(--amount, 2)) );
-  }
-  68% {
-    transform: skewY( calc( (-2.2deg) * var(--amount, 2)) );
-  }
-  74% {
-    transform: skewY( calc( (-2.48deg) * var(--amount, 2)) );
-  }
-  75% {
-    transform: skewY( calc( (-2.5deg) * var(--amount, 2)) );
-  }
-  76% {
-    transform: skewY( calc( (-2.48deg) * var(--amount, 2)) );
-  }
-  82% {
-    transform: skewY( calc( (-2.2deg) * var(--amount, 2)) );
-  }
-  87% {
-    transform: skewY( calc( (-1.8deg) * var(--amount, 2)) );
-  }
-  100% {
-    transform: skewY(0deg);
-  }
-}
-
-@keyframes blob-scale {
-  0% {
-    transform: scaleX(.9) scaleY(1);
-  }
-  25% {
-    transform: scaleX(.9) scaleY(.9);
-  }
-  50% {
-    transform: scaleX(1) scaleY(.9);
-  }
-  75% {
-    transform: scaleX(.9) scaleY(.9);
-  }
-  100% {
-    transform: scaleX(.9) scaleY(1);
-  }
-} */

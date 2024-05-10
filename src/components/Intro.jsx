@@ -2,8 +2,8 @@
 
 const Intro = () => {
   return (
-    <section className="bg-black text-white font-mont  px-4 py-20">
-      <div className="container flex flex-col items-center md:flex-row gap-16">
+    <section className="bg-black text-white font-mont  px-4 py-20 ">
+      <div className="container flex flex-col items-center lg:flex-row gap-16  lg:px-12  rounded-xl">
         {/* Intro title */}
         <div className=" flex-grow md:w-[50%] relative">
           <h1 className="absolute top-14 left-4 md:top-[180px] text-white text-4xl md:text-6xl font-bold max-w-[600px]">I’m Nadim, a professional video editor & film maker</h1>
@@ -34,8 +34,16 @@ const Intro = () => {
             </svg>
           </div>
         </div>
-        <div className="flex-grow md:w-[50%]">
-          <p className="text-lg">
+        <div className="flex-grow flex flex-col justify-center w-full md:w-[50%] space-y-10 border-2 border-[#FF0066] p-4  md:p-12  rounded-2xl">
+          <figure className="flex flex-col md:flex-row items-center gap-4 text-xl">
+            <img className="rounded-full border-2 border-[#FF0066] p-2" width={150} src="nadim2.jpg"></img>
+            <div className="space-y-2 text-center md:text-left">
+              <p className="font-bold">Jubayer Nadim</p>
+              <p>video editor</p>
+            </div>
+            
+          </figure>
+          <p className="text-lg text-center md:text-left">
             Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa
             mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien
             fringilla, mattis ligula consectetur, ultrices mauris. Maecenas

@@ -1,6 +1,6 @@
 const SkillCard = ({ img, title }) => {
   return (
-    <div>
+    <div className="border-style p-4">
       <figure>
         <img src={img}></img>
       </figure>
