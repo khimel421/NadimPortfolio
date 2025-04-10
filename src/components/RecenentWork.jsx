@@ -5,7 +5,7 @@ const RecentWork = () => {
 
   const videos = [
     {
-      id: 's9errtxitjz8yuidh78g',
+      id: 'erkz9gimk2leop1ztnmd',
       title: 'Project Showcase 1',
       description: 'Our latest creative work'
     },
@@ -15,7 +15,7 @@ const RecentWork = () => {
       description: 'Detailed product features'
     },
     {
-      id: 'ujmnccqjn5dox8mzopar', // Replace with actual ID
+      id: 'fmdkdarbqprzghyhsy1a', 
       title: 'Client Testimonial',
       description: 'Customer success story'
     }
