@@ -9,6 +9,7 @@ import SkillSet from "./components/SkillSet";
 import Skills from "./components/Skills";
 import { Context } from "./contextProvider/ContextProvider";
 import ScrollToTop from "./components/ScrollToTop";
+import MobileNavigation from "./components/MobileNavigation";
 
 
 export default function App() {
@@ -39,6 +40,7 @@ export default function App() {
      <div ref={contact}>  
         <Contact></Contact>
         <Footer></Footer>
+        <MobileNavigation/>
      </div>
      
       
