@@ -38,7 +38,7 @@ export default function App() {
      </div>
 
      <div ref={contact}>  
-        <Contact></Contact>
+        {/* <Contact></Contact> */}
         <Footer></Footer>
         <MobileNavigation/>
      </div>
