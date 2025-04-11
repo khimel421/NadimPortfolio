@@ -29,7 +29,7 @@ const Footer = () => {
 
     const socialLinks = [
         { icon: <FaLinkedinIn />, url: "https://linkedin.com" },
-        { icon: <FaFacebookF />, url: "https://facebook.com" },
+        { icon: <FaFacebookF />, url: "https://www.facebook.com/safoan.nadim.da" },
         { icon: <FaInstagram />, url: "https://instagram.com" }
     ];
 
@@ -62,7 +62,7 @@ const Footer = () => {
                     ))}
                 </div>
 
-                <div className="flex gap-5">
+                {/* <div className="flex gap-5">
                     {socialLinks.map((social, index) => (
                         <LinkLogo 
                             key={index} 
@@ -72,7 +72,7 @@ const Footer = () => {
                             {social.icon}
                         </LinkLogo>
                     ))}
-                </div>
+                </div> */}
             </div>
 
             <div className="text-center mt-10 text-gray-400 text-sm">

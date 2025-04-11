@@ -1,14 +1,13 @@
-const SkillCard = ({ img, title }) => {
+const SkillCard = ({ img, title , description }) => {
   return (
     <div className="border-style p-4">
       <figure>
-        <img src={img}></img>
+        <img className="w-full" src={img}></img>
       </figure>
 
       <h1 className="text-2xl font-bold my-4">{title}</h1>
       <p>
-        Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
-        suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur
+        {description}
       </p>
     </div>
   );
